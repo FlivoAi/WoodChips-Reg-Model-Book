@@ -245,10 +245,6 @@ import pickle
 
 with open('plantmodel.pkl', 'wb') as file:
     pickle.dump(model, file)
-import shutil
-shutil.copy('plantmodel.pkl', '/content/drive/MyDrive/models/plantmodel.pkl')
-
 with open('colormodel.pkl', 'wb') as file:
     pickle.dump(colormodel, file)
-shutil.copy('colormodel.pkl', '/content/drive/MyDrive/models/colormodel.pkl')
 
